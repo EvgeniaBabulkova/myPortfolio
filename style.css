@@ -284,12 +284,34 @@ h2 {
   }
   
   .single-item .content h3 {
-    padding-top: 35%;
-    font-family: Outfit;
-    font-size: 1.3vw;
+    font-family: 'Outfit', sans-serif;
+    font-size: 2.5vw;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 900;
     line-height: normal;
+  }
+
+  .single-item .content h4 {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.2vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .single-item .content h5 {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: -6%;
+    margin-top: 15%;
   }
   
   .single-item .content p {
@@ -298,6 +320,9 @@ h2 {
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+    padding-top: 13%;
+    padding-left: 15%;
+    padding-right: 15%;
   }
   
   .single-item:hover .content {
