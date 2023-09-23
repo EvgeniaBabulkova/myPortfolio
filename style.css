@@ -33,10 +33,15 @@ body {
 .navbar-right a {
     text-decoration: none;
     color: #FEFAE0;
+    transition: color 0.3s ease;
     font-family: 'Londrina Solid', cursive;
     font-weight: 300;
     font-size: large;
     
+}
+
+ .navbar-right a:hover {
+    color: #F2542D;
 }
 
 .navbar-left,
@@ -107,7 +112,7 @@ body {
 }
 
 .thin-line {
-    width:90%;
+    width: 90%;
     height: 1px;
     background-color: #fefae041;
 }
@@ -289,6 +294,7 @@ h2 {
     font-style: normal;
     font-weight: 900;
     line-height: normal;
+    margin-bottom: 0%;
   }
 
   .single-item .content h4 {
@@ -299,6 +305,7 @@ h2 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-top: 2%;
   }
 
   .single-item .content h5 {
@@ -320,7 +327,7 @@ h2 {
     font-style: normal;
     font-weight: 300;
     line-height: normal;
-    padding-top: 13%;
+    padding-top: 17%;
     padding-left: 15%;
     padding-right: 15%;
   }
