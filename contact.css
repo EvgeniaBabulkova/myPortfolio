@@ -7,6 +7,14 @@ body {
 
 }
 
+/* STYLING H4 EVERYWHERE */
+h4 {
+    font-family: Outfit;
+    font-size: 2vw;
+    font-weight: 900;
+    margin-top: 0%;
+
+}
 
 
 
@@ -557,6 +565,9 @@ h3 {
 }
 
 
+
+
+
 /* STYLING THE TEXT AFTER DESK RESEARCH */
 .ouraim-section {
     display: flex;
@@ -574,14 +585,6 @@ h3 {
     box-sizing: border-box;
 }
 
-/* styling all h4 titles */
-h4 {
-    font-family: Outfit;
-    font-size: 2vw;
-    font-weight: 900;
-    margin-top: 0%;
-
-}
 
 .our-aim p {
 margin-bottom: -1%;
@@ -591,7 +594,6 @@ margin-bottom: -1%;
 
 
 /* STYLING THE FINDINGS - COMPANY */
-/* Container styles */
 .findings-company {
     display: flex;
     justify-content: space-between;
@@ -599,32 +601,129 @@ margin-bottom: -1%;
     margin-right: 7.3%;
     box-sizing: border-box;
     box-shadow: 30px 21px 4px 0px rgba(0, 0, 0, 0.25);
-
 }
 
 /* Left content styles */
 .company-sticky-notes {
     flex: 1;
-    padding: 2vw; /* Use viewport units for padding */
+    padding: 3vw; 
     background-color: #242424;
     box-sizing: border-box;
-    overflow: hidden; /* Hide overflow if the image becomes too large */
-    max-width: 50%; /* Limit the width of the left content to 50% of the viewport width */
+    overflow: hidden; 
+    max-width: 50%; 
 }
 
 /* Right content styles */
 .mvv {
     flex: 1;
-    padding: 2vw; /* Use viewport units for padding */
+    padding: 3vw;
     background-color: #242424;
     box-sizing: border-box;
 }
 
 /* Image inside left content */
 .company-sticky-notes img {
-    max-width: 100%; /* Limit the image width to the available space */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 100%;
+    height: auto;
 }
+
+
+
+
+
+
+/* STYLING THE FINDINGS - COMPETITION */
+.findings-competition {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7.3%;
+    margin-right: 7.3%;
+    margin-top: 7%;
+    box-sizing: border-box;
+    box-shadow: 30px 21px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* Left content styles */
+.competition-sticky-notes {
+    flex: 1;
+    padding: 3vw;
+    background-color: #242424;
+    box-sizing: border-box;
+    max-width: 50%;
+}
+
+.competition-sticky-notes p {
+    margin: 0%;
+}
+
+.competition-sticky-notes img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.incommon {
+    flex: 0.25; /* 25% of available space */
+    padding: 3vw;
+    background-color: #242424;
+    box-sizing: border-box;
+}
+
+
+.unique {
+    flex: 0.25; /* 25% of available space */
+    padding: 3vw;
+    background-color: #242424;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* STYLING THE FINDINGS - THE TARGET GROUP */
+.findings-targetgroup {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7.3%;
+    margin-right: 7.3%;
+    margin-top: 7%;
+    box-sizing: border-box;
+    box-shadow: 30px 21px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* Left content styles */
+.trgg-sticky-notes {
+    flex: 1;
+    padding: 3vw; 
+    background-color: #242424;
+    box-sizing: border-box;
+    overflow: hidden; 
+    max-width: 50%; 
+}
+
+.trgg-sticky-notes img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Right content styles */
+.netnography {
+    flex: 1;
+    padding: 3vw;
+    background-color: #242424;
+    box-sizing: border-box;
+}
+
+.netnography img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
 
 
 
