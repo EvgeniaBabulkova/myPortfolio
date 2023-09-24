@@ -557,7 +557,7 @@ h3 {
 }
 
 
-/* STYLING THE TEXT AFTER DESK RESEARCH AND THE FINDINGS */
+/* STYLING THE TEXT AFTER DESK RESEARCH */
 .ouraim-section {
     display: flex;
     justify-content: space-between;
@@ -573,7 +573,9 @@ h3 {
     padding: 10px;
     box-sizing: border-box;
 }
-.our-aim h4 {
+
+/* styling all h4 titles */
+h4 {
     font-family: Outfit;
     font-size: 2vw;
     font-weight: 900;
@@ -584,6 +586,48 @@ h3 {
 .our-aim p {
 margin-bottom: -1%;
 }
+
+
+
+
+/* STYLING THE FINDINGS - COMPANY */
+/* Container styles */
+.findings-company {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7.3%;
+    margin-right: 7.3%;
+    box-sizing: border-box;
+    box-shadow: 30px 21px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+/* Left content styles */
+.company-sticky-notes {
+    flex: 1;
+    padding: 2vw; /* Use viewport units for padding */
+    background-color: #242424;
+    box-sizing: border-box;
+    overflow: hidden; /* Hide overflow if the image becomes too large */
+    max-width: 50%; /* Limit the width of the left content to 50% of the viewport width */
+}
+
+/* Right content styles */
+.mvv {
+    flex: 1;
+    padding: 2vw; /* Use viewport units for padding */
+    background-color: #242424;
+    box-sizing: border-box;
+}
+
+/* Image inside left content */
+.company-sticky-notes img {
+    max-width: 100%; /* Limit the image width to the available space */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+
 
 
 
