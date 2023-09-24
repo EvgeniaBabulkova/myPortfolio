@@ -541,7 +541,7 @@ p {
 
 
 
-/* styling the desk research heading */
+/* styling the desk research heading AND ALL H3 */
 h3 {
     display: flex;
     padding-right: 1%;
@@ -572,23 +572,22 @@ h3 {
 .ouraim-section {
     display: flex;
     justify-content: space-between;
-    align-items:baseline;
     margin-left: 7.3%;
     margin-right: 7.3%;
-  }
-
-
-.our-aim{
-    flex: 1; 
-    margin: 0.3%;
-    padding: 10px;
     box-sizing: border-box;
+    box-shadow: 30px 21px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-
-.our-aim p {
-margin-bottom: -1%;
+/* Left content styles */
+.our-aim {
+    flex: 1;
+    padding: 3vw; 
+    background-color: #242424;
+    box-sizing: border-box;
+    overflow: hidden; 
+    max-width: 50%; 
 }
+
 
 
 
