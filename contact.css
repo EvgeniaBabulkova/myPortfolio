@@ -599,14 +599,14 @@ h3 {
     margin-left: 7.3%;
     margin-right: 7.3%;
     box-sizing: border-box;
-    box-shadow: 30px 21px 4px 0px rgba(0, 0, 0, 0.25);
+    /* box-shadow: 30px 21px 4px 0px rgba(0, 0, 0, 0.25); */
 }
 
 /* Left content styles */
 .company-sticky-notes {
     flex: 1;
     padding: 3vw; 
-    background-color: #242424;
+    /* background-color: #242424; */
     box-sizing: border-box;
     overflow: hidden; 
     max-width: 50%; 
@@ -616,7 +616,7 @@ h3 {
 .mvv {
     flex: 1;
     padding: 3vw;
-    background-color: #242424;
+    /* background-color: #242424; */
     box-sizing: border-box;
 }
 
@@ -639,14 +639,14 @@ h3 {
     margin-right: 7.3%;
     margin-top: 7%;
     box-sizing: border-box;
-    box-shadow: 30px 21px 4px 0px rgba(0, 0, 0, 0.25);
+    /* box-shadow: 30px 21px 4px 0px rgba(0, 0, 0, 0.25); */
 }
 
 /* Left content styles */
 .competition-sticky-notes {
     flex: 1;
     padding: 3vw;
-    background-color: #242424;
+    /* background-color: #242424; */
     box-sizing: border-box;
     max-width: 50%;
 }
@@ -664,7 +664,7 @@ h3 {
 .incommon {
     flex: 0.25; /* 25% of available space */
     padding: 3vw;
-    background-color: #242424;
+    /* background-color: #242424; */
     box-sizing: border-box;
 }
 
@@ -672,7 +672,7 @@ h3 {
 .unique {
     flex: 0.25; /* 25% of available space */
     padding: 3vw;
-    background-color: #242424;
+    /* background-color: #242424; */
     box-sizing: border-box;
 }
 
@@ -687,15 +687,16 @@ h3 {
     margin-left: 7.3%;
     margin-right: 7.3%;
     margin-top: 7%;
+    margin-bottom: 10%;
     box-sizing: border-box;
-    box-shadow: 30px 21px 4px 0px rgba(0, 0, 0, 0.25);
+    /* box-shadow: 30px 21px 4px 0px rgba(0, 0, 0, 0.25); */
 }
 
 /* Left content styles */
 .trgg-sticky-notes {
     flex: 1;
     padding: 3vw; 
-    background-color: #242424;
+    /* background-color: #242424; */
     box-sizing: border-box;
     overflow: hidden; 
     max-width: 50%; 
@@ -711,7 +712,7 @@ h3 {
 .netnography {
     flex: 1;
     padding: 3vw;
-    background-color: #242424;
+    /* background-color: #242424; */
     box-sizing: border-box;
 }
 
@@ -722,6 +723,41 @@ h3 {
 
 
 
+
+/* STYLING THE OVERVIEW OF FIELD RESEARCH */
+.fieldresearch-info {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7.3%;
+    margin-right: 7.3%;
+    margin-top: 7%;
+    box-sizing: border-box;
+    box-shadow: 30px 21px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.methods {
+    flex: 1;
+    padding: 3vw;
+    background-color: #242424;
+    box-sizing: border-box;
+    max-width: 50%;
+}
+
+
+.ouraim {
+    flex: 0.25; /* 25% of available space */
+    padding: 3vw;
+    background-color: #242424;
+    box-sizing: border-box;
+}
+
+
+.interviewed {
+    flex: 0.25; /* 25% of available space */
+    padding: 3vw;
+    background-color: #242424;
+    box-sizing: border-box;
+}
 
 
 
