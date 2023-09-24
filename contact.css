@@ -762,10 +762,83 @@ h3 {
 
 
 
+/* STYLING THE FINDINGS - FIELD RESEARCH */
+.findings-fieldr {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7.3%;
+    margin-right: 7.3%;
+    box-sizing: border-box;
+}
+
+/* Left content styles */
+.fieldr-left {
+    flex: 1;
+    padding: 3vw; 
+    box-sizing: border-box;
+    overflow: hidden; 
+    max-width: 50%; 
+}
+
+/* Right content styles */
+.fieldr-right {
+    flex: 1;
+    padding: 3vw;
+    box-sizing: border-box;
+}
+
+/* Image inside left content */
+.fieldr-left img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.fieldrph {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 10%;
+
+}
+
+.fieldrph img {
+    max-width: 70%;
+    height: auto;
+}
 
 
 
 
+
+
+/* STYLING THE SUM UP OF RESEARCH */
+.sumup-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+}
+
+.sumup {
+    text-align: left;
+    max-width: 50%;
+    padding: 5%;   
+    box-sizing: border-box;
+    box-shadow: 30px 21px 4px 0px rgba(0, 0, 0, 0.25);
+    background-color: #242424;
+
+}
+
+.sumup h4 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sumup p {
+    font-size: 16px;
+    line-height: 1.5;
+}
 
 
 
