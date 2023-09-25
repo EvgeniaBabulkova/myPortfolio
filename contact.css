@@ -287,7 +287,7 @@ h2 {
   /*little pharagraph in SECRET PAGE and brief section in TCC */
 p {
     font-family: Outfit;
-    font-size: 1vw;
+    font-size: 1.2vw;
     font-weight: 300;
 }
 
@@ -515,7 +515,7 @@ p {
 
 .sticky-buttons a {
     text-decoration: none;
-    color: #fff;
+    color: #FEFAE0;
     padding: 1%;
     border-radius: 5px;
     transition: background-color 0.3s ease;
@@ -800,7 +800,7 @@ h3 {
     display: flex;
     justify-content: center;
     margin-top: 1%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 
 }
 
@@ -860,4 +860,28 @@ h3 {
     max-width: 80%;
     height: auto;
 }
+
+
+
+
+/* STYLING THE LIST OF REQUIREMENTS */
+.listofr {
+    display: flex;
+    justify-content: center;
+    margin-left: 7.3%;
+    margin-right: 7.3%;
+}
+
+.listofr img {
+    flex: 1; 
+    max-width: 30%; 
+    height: auto;
+}
+
+.listofr img + img {
+    margin-left: 10%;
+}
+
+
+
 
