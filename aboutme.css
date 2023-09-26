@@ -1,0 +1,56 @@
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+/* STYLING THE THIN LINE */
+.aline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.oneline {
+    width: 90%;
+    height: 1px;
+    background-color: #fefae041;
+}
+
+
+
+/* STYLING THE BRIEF HEADING */
+.skills {
+    margin-bottom: 1%;
+    color: var(--orange, #F2542D);
+    font-family: Londrina Solid;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    text-transform: uppercase;
+    }
+
+
+
+/* STYLING THE BRIEF SECTION */
+.fieldr-left {
+    flex: 1;
+    padding: 3vw; 
+    box-sizing: border-box;
+    overflow: hidden; 
+    max-width: 50%; 
+}
+
+
+.fieldr-right img {
+    margin-left: 30%;
+    max-width: 60%;
+}
+
+
+
+
+
+
+
