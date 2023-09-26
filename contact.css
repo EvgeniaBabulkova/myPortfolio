@@ -885,3 +885,38 @@ h3 {
 
 
 
+
+
+
+/* STYLING THE IMAGE FOR TESTING 1 */
+.widerimg {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+
+.widerimg img {
+    max-width: 80%;
+    height: auto;
+}
+
+
+
+
+/* STYLING THE BACKGROUND INFO FOR TCC */
+.video1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+
+}
+
+.video1 ifr{
+    max-width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+
+}
