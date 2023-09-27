@@ -9,7 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/drz6hwb.css">
-</head>
+    <!-- for the icon in the browser -->
+    <link rel="icon" href="images/logoo.svg" type="image/x-icon">
+  </head>
 <body>
     
 
@@ -31,8 +33,9 @@
       <div class="navbar-right">
           <a href="aboutme.html">ABOUT ME</a>
           <a href="contact.html">CONTACT</a>
-          <a href="work.html">WORK</a>
-          <a href="#">CV</a>
+          <a href="images/Evgenia-Babulkova CV.pdf" class="work-link">WORK</a>
+          <a href="images/Evgenia-Babulkova CV.pdf" target="_blank">CV</a>
+
       </div>
   </div>
 
@@ -41,9 +44,9 @@
 <!-- herosection -->
     <div class="herosec">
         <div class="text">
-            <h1>I'M EVA, I like to design,</h1>
-            <p>Multimedia designer with passion for photography,
-                <br> visual art, UX/UX design and moree</p>
+            <h1>I'M EVGENIA, I like to design,</h1>
+            <p>Multimedia designer with passion for UX/UI design,
+                <br> protography, visual art and moree</p>
         </div>
         <div class="image">
             <img src="images/MYFACE.png" alt="Image">
@@ -107,10 +110,10 @@
 
 
 <!-- line and about me button -->
-      <div class="linebutton">
-        <div class="thin-line"></div>
-        <button class="button">About Me</button>
-        </div>
+<div class="linebutton">
+  <div class="thin-line"></div>
+  <button class="button" id="aboutMeButton">About Me</button>
+</div>
 
 
   
@@ -118,7 +121,7 @@
 
 
 <!-- heading of projects -->
-    <section class="section1skills">
+    <section class="section1skills work-section">
       <div class="skills">PROJECTS</div>
       <h2>SEE SOME OF <br> MY WORK</h2>
     </section>
@@ -133,13 +136,13 @@
           <div class="content">
             <h5>May 2023</h5>
             <h3>THE CLOTHING CLUB</h3>
-            <h4>Website for a non-profit organization, functioning as a clothing library</h4>
+            <h4>Responsive website for a non-profit organization, functioning as a clothing library</h4>
             <p>User research • UX/UI design •
              Rebranding • Prototyping Lo-Fi/Hi-fi • 
              Content creation • WordPress • SEO</p>
           </div>
         </a>
-        <a href="link-to-page2" class="single-item">
+        <a href="nomader.html" class="single-item">
           <img src="images/nomader carousel.svg" alt="nomader carousel">
           <div class="content">
             <h5>August 2023</h5>
@@ -151,7 +154,7 @@
       </div>
     
       <div class="container">
-        <a href="link-to-page3" class="single-item">
+        <a href="evshots.html" class="single-item">
           <img src="images/evshors carousel.svg" alt="evshots carousel">
           <div class="content">
             <h5>ongoing</h5>
@@ -160,7 +163,7 @@
             <p>Lightroom • Adobe Photoshop Fix • Adobe Photoshop • Light and color experimenting • Macro • Nature • People • Street </p>
           </div>
         </a>
-        <a href="link-to-page4" class="single-item">
+        <a href="visuals.html" class="single-item">
           <img src="images/illustrations carousel.svg" alt="illustrations carousel">
           <div class="content">
             <h5>Ongoing</h5>
@@ -205,7 +208,7 @@
   <div class="download-cv">
     <p class="colored-text">
       <span class="white">PSS, YOU CAN ALSO</span>
-      <a href="path-to-your-cv.pdf" class="orange" download>DOWNLOAD MY CV</a>
+      <a href="images/Evgenia-Babulkova CV.pdf" class="orange" download>DOWNLOAD MY CV</a>
     </p>
   </div>
 
@@ -229,7 +232,7 @@
     <div class="footer-links">
       <a href="aboutme.html">ABOUT ME</a>
       <a href="contact.html">CONTACT</a>
-      <a href="work.html">WORK</a>
+      <a href="#" class="work-link">WORK</a>
     </div>
     <div class="footer-copyright">
       <p>© Evgenia Babulkova 2023 created using HTML CSS JS</p>

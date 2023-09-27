@@ -10,7 +10,6 @@ body {
 
 
 
-
 /* STYLING THE HEADER */
 .navbar {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent);
@@ -91,7 +90,8 @@ body {
 }
 
 .herosec .text h1 {
-    font-size: 3vw;;
+    font-size: 3vw;
+    font-weight: 900;
 }
 
 .image img {

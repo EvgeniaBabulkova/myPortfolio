@@ -1,0 +1,103 @@
+body {
+    background-image: url('images/onlygrainDESKTOP.png');
+    background-size: cover;
+    background-repeat:no-repeat;
+    margin: 0%;
+    color: #FEFAE0;
+
+}
+
+/* STYLING H4 EVERYWHERE */
+h4 {
+    font-family: Outfit;
+    font-size: 2vw;
+    font-weight: 900;
+    margin-top: 0%;
+
+}
+
+
+
+/* STYLING THE HEADER */
+.navbar {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    backdrop-filter: blur(10px);
+    padding: 1% 7.3%;
+
+}
+
+.navbar-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.navbar-left a,
+.navbar-right a {
+    text-decoration: none;
+    color: #FEFAE0;
+    transition: color 0.3s ease;
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 300;
+    font-size: large;
+    
+}
+
+.navbar-right a:hover {
+    color: #F2542D;
+}
+
+.navbar-left,
+.navbar-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-left{
+    display: flex;
+    justify-content: left;
+    margin-right: 20px;
+}
+
+.navbar-right a{
+    margin-left: 20px;
+}
+.navbar-right {
+    margin-left:20px;
+}
+
+.navbar-center img {
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+
+
+
+
+
+/* STYLE COMING SOON TEXT */
+.centered-paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .centered-paragraph p {
+    max-width: 80%; 
+    font-family: 'Outfit', sans-serif;
+    font-size: 2.5vw;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+  
