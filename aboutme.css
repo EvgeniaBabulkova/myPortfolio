@@ -1,39 +1,113 @@
-img {
-    max-width: 100%;
-    height: auto;
-  }
+body {
+    background-image: url('images/aboutme\ last\ bkg.png');
+    background-size: cover;
+    background-repeat:no-repeat;
+    margin: 0%;
+    color: #FEFAE0;
+
+}
+
+.allshit{
+    margin-left: 7.3%;
+    margin-right: 7.3%;
+}
 
 
-/* STYLING THE THIN LINE */
-.aline {
+/* STYLING H4 EVERYWHERE */
+h4 {
+    font-family: Outfit;
+    font-size: 2vw;
+    font-weight: 900;
+    margin-top: 0%;
+
+}
+/*STYLE P EVERYWHERE */
+p {
+    font-family: Outfit;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+/* STYLE H2 EVERYWHERE */
+h2 {
+    color: var(--d-9-d-9-d-9, #FEFAE0);
+    text-shadow: 30px 20px 3px rgba(0, 0, 0, 0.50);
+    font-family: "gill-sans-nova", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 5vw;
+    line-height: 100.5%;
+    margin-top: 1%;
+}
+
+
+
+
+
+/* STYLING THE HEADER */
+.navbar {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    backdrop-filter: blur(10px);
+    padding: 1% 7.3%;
+
+}
+.navbar-inner {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
-
-.oneline {
-    width: 90%;
-    height: 1px;
-    background-color: #fefae041;
+.navbar-left a,
+.navbar-right a {
+    text-decoration: none;
+    color: #FEFAE0;
+    transition: color 0.3s ease;
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 300;
+    font-size: large;
+    
+}
+.navbar-right a:hover {
+    color: #F2542D;
+}
+.navbar-left,
+.navbar-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar-left{
+    display: flex;
+    justify-content: left;
+    margin-right: 20px;
+}
+.navbar-right a{
+    margin-left: 20px;
+}
+.navbar-right {
+    margin-left:20px;
+}
+.navbar-center img {
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    
 }
 
 
+/* HERO SECTION */
+.findings-fieldr {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7%;
+    margin-bottom: 15%;
+    box-sizing: border-box;
+}
 
-/* STYLING THE BRIEF HEADING */
-.skills {
-    margin-bottom: 1%;
-    color: var(--orange, #F2542D);
-    font-family: Londrina Solid;
-    font-size: 2vw;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 150%;
-    text-transform: uppercase;
-    }
-
-
-
-/* STYLING THE BRIEF SECTION */
+/* Left content styles */
 .fieldr-left {
     flex: 1;
     padding: 3vw; 
@@ -42,6 +116,168 @@ img {
     max-width: 50%; 
 }
 
+/* Image inside left content */
+.fieldr-left img {
+    max-width: 80%;
+    height: auto;
+    margin-left: 15%;
+}
+
+/* Right content styles */
+.fieldr-right {
+    flex: 1;
+    padding: 3vw;
+    box-sizing: border-box;
+}
+
+.second h2{
+font-size: 3vw;
+margin-top: -5%;
+}
+
+
+
+
+
+
+/* WHAT AM I LIKE*/
+.whatamilike {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7%;
+    margin-bottom: 15%;
+    box-sizing: border-box;
+}
+
+/* Left content styles */
+.leftlike {
+    flex: 1;
+    box-sizing: border-box;
+    overflow: hidden; 
+    max-width: 40%; 
+}
+
+/* Right content styles */
+.rightlike {
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.rightlike img {
+    max-width: 80%;
+    height: auto;
+    margin-left: 15%;
+}
+
+
+
+
+
+/* STYLING THE THIN LINE */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thin-line {
+    width: 100%;
+    height: 1px;
+    background-color: #fefae041;
+    margin-bottom: 10%;
+}
+
+
+
+
+/* STYLING THE I LOVE SECTION */
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 5%;
+}
+
+.image {
+    position: relative;
+    width: calc(14.28% - 20px); /* Adjust the width and spacing as needed */
+    margin-bottom: 20px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    transition: filter 0.3s; /* Add filter transition */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s; /* Adjust the transition duration */
+}
+
+.image:hover img {
+    filter: blur(5px); /* Blur the image on hover */
+}
+
+.image:hover .overlay {
+    opacity: 1;
+}
+
+.overlay p {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+/* TRAVEL SECTION */
+.travel {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7%;
+    margin-bottom: 15%;
+    box-sizing: border-box;
+}
+
+/* Left content styles */
+.lefttravel {
+    flex: 1;
+    box-sizing: border-box;
+    overflow: hidden; 
+    max-width: 50%; 
+}
+
+/* Image inside left content */
+.lefttravel img {
+    max-width: 80%;
+    height: auto;
+}
+
+/* Right content styles */
+.righttravel {
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.righttravel p {
+margin-top: 0%;
+}
+
+.travellist p {
+margin: 0%;
+}
 
 
 
@@ -50,3 +286,95 @@ img {
 
 
 
+
+
+
+
+
+
+/* STYLING THE SHOES */
+.shoes {
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+    margin-top: 12%;
+    margin-bottom: 0%;
+  }
+  
+  .centered-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+
+
+/* STYLING THE LINE FOR FOOTER */
+.linefooter {
+    margin-left: 7.3%;
+    margin-right: 7.3%;
+    height: 1px;
+    background-color: #fefae041;
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 0;
+    background-color: #242424;
+    background: linear-gradient(180deg, #212121 0%, #171717 37.53%, rgba(0, 0, 0, 0.00) 104.41%);
+    color: #FEFAE0;
+  }
+
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+  }
+
+  .footer-links a {
+    text-decoration: none;
+    color: #F2542D;
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 300;
+    font-size: 1.7svw;
+    margin: 0 6%;
+  }
+
+.footer-copyright {
+    margin-top: 2%;
+    font-size: 2vw;
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 300;
+    font-size: 1.5vw;
+    margin: 0 3%;
+  }
+
+
+
+
+/* RESPONSIVE - I LOVE*/
+@media screen and (max-width: 768px) {
+    .image {
+        width: calc(50% - 20px);
+    }
+}
+@media screen and (max-width: 480px) {
+    .image {
+        width: calc(100% - 20px);
+    }
+}
+.image:hover img {
+    filter: blur(5px); /* Blur the image on hover */
+}
+.image:hover .overlay {
+    opacity: 1;
+}
+.overlay p {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
