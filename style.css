@@ -176,6 +176,7 @@ width: fit-content;
     margin-top: 6.7%;
 }
 
+
 /* STYLING FOR THE SUBHEADING */
 .skills {
     margin-bottom: 1%;
@@ -199,6 +200,19 @@ h2 {
     margin-top: 1%;
 }
 
+@media only screen and (max-width: 391px)  {
+
+.skills{
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 30px;
+  text-shadow: 10px 10px 3px rgba(0, 0, 0, 0.50);
+
+}
+
+}
 
 
 
