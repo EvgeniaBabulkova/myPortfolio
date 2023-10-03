@@ -16,7 +16,7 @@ body {
 
 @media only screen and (max-width: 391px)  {
   body{
-   background-image: url('images/bkg-ph-390.png');
+   background-image: url('images/bkg-ph-390-last.png');
  }
   }
 
@@ -121,7 +121,7 @@ body {
 
 .herosec{
   flex-direction: column;
-  margin-top: 20%;
+  margin-top: 10%;
 }
 
 .herosec .text h1 {
@@ -135,8 +135,8 @@ body {
 }
 
 .text{
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 17%;
+  margin-right: 19%;
 }
 
 .image img {
