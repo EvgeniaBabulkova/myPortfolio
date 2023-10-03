@@ -273,6 +273,12 @@ h2 {
     align-items: center;
   }
 
+  .lineafterskills {
+    margin-top: 6%;
+    height: 1px;
+    background-color: #fefae041;
+    display: none;
+}
 
 
 @media only screen and (max-width: 391px)  {
@@ -296,8 +302,13 @@ h2 {
   font-size: 16px;
 }
 
+.lineafterskills {
+display: flex;
+margin-bottom: 30%;
+margin-top: 0%;
+}
 
-  }
+}
 
 
 /* STYLING THE THIN LINE WITH BUTTON */
@@ -333,15 +344,16 @@ h2 {
   display: none;
 }
 
+
+
 .linebutton{
   justify-content: center;
-  margin-bottom: 20%;
+  margin-bottom: 15%;
 }
 
 .button{
   font-size: 30px;
   padding: 3% 7%;
-  margin-bottom: 10%;
 }
 
 }
@@ -451,13 +463,18 @@ h2 {
 
 
   .single-item {
-    flex-direction: column; /* Display items vertically */
-    max-width: 100%; /* Adjust the maximum width to fill the screen */
+    flex-direction: column;
+    max-width: 100%;
+    margin: 8%;
+    box-shadow: 15px 10px 4px 0px rgba(0, 0, 0, 0.45); 
+
 }
 
 .single-item .content h3 {
-  margin-top: 15%;
+  margin-top: 25%;
     font-size: 25px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .single-item .content h4 {
@@ -476,6 +493,7 @@ display: none;
   padding-top: 3%;
   font-size: 12px;
   color: #bdbdbd;
+  display: none;
 
 }
 
@@ -492,7 +510,12 @@ display: none;
     background-color: #fefae041;
 }
   
-
+@media only screen and (max-width: 391px)  {
+.line{
+  margin-top: 15%;
+  margin-bottom: 30%;
+}
+}
 
 
 /* STYLING THE SOCIAL ICONS */
@@ -503,15 +526,18 @@ display: none;
 }
 
 .image-box {
-    width: 10;
-    padding: 5%;
+    padding: 3%;
     background-color: #357677;
     border-radius: 10px;
     text-align: center;
     margin: 3%;
   }
 
-
+  @media only screen and (max-width: 391px)  {
+    .image-box {
+    padding: 2%;
+    }
+  }
 
 
 /* STYLING THE DOWNLOAD CV */
