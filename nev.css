@@ -101,3 +101,60 @@ h4 {
     line-height: normal;
 }
   
+
+/* STYLE RESPONSIVE NAVBAR */
+.burger {
+    display: none;
+}
+
+.burger-line{
+    width: 20px;
+    height: 3px;
+    background-color: #FEFAE0;
+    margin-bottom: 4px;
+}
+
+
+
+@media all and (max-width: 800px) {
+
+    .burger{
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 30px;
+    }
+
+    .navbar-inner{
+        flex-direction: column;
+    }
+
+    .navbar-center{
+        margin-top: 0.5%;
+        margin-bottom: 0.5%;
+    }
+
+    .navbar-left{
+        display: none;
+    }
+
+    .navbar-right {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0%;
+        display: none;
+    }
+
+    .navbar-right a{
+        margin: 0%;
+        margin-top: 30%;
+    }
+
+
+    .active{
+        display: flex;
+    }
+
+    
+}

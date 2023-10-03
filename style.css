@@ -407,12 +407,11 @@ h2 {
   .shoes {
     display: flex;
     justify-content: center;
-    height: 40vh;
     margin-top: 12%;
     margin-bottom: 0%;
   }
   
-  .centered-image img {
+  .shoes img {
     max-width: 100%;
     height: auto;
   }
@@ -468,21 +467,68 @@ h2 {
 
 
 
-/* CSS for smaller screens */
-@media (max-width: 645px) {
-  .nav-links {
-      display: none; /* Hide links */
-  }
 
-  .burger-menu {
-      display: block; /* Show burger menu */
-      cursor: pointer;
-  }
 
-  .bar {
-      width: 25px;
-      height: 3px;
-      background-color: #fff;
-      margin: 4px 0;
+
+.burger {
+    display: none;
+}
+
+.burger-line{
+    width: 20px;
+    height: 3px;
+    background-color: #FEFAE0;
+    margin-bottom: 4px;
+}
+
+
+
+@media only screen and (max-width: 390px)  {
+   body{
+    background-image: url('images/bkg-ph-390.png');
   }
+   }
+
+
+@media all and (max-width: 800px) {
+
+    .burger{
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 30px;
+    }
+
+    .navbar-inner{
+        flex-direction: column;
+    }
+
+    .navbar-center{
+        margin-top: 0.5%;
+        margin-bottom: 0.5%;
+    }
+
+    .navbar-left{
+        display: none;
+    }
+
+    .navbar-right {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0%;
+        display: none;
+    }
+
+    .navbar-right a{
+        margin: 0%;
+        margin-top: 30%;
+    }
+
+
+    .active{
+        display: flex;
+    }
+
+    
 }
