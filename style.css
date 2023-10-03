@@ -464,3 +464,25 @@ h2 {
     margin: 0 3%;
   }
 
+
+
+
+
+/* CSS for smaller screens */
+@media (max-width: 645px) {
+  .nav-links {
+      display: none; /* Hide links */
+  }
+
+  .burger-menu {
+      display: block; /* Show burger menu */
+      cursor: pointer;
+  }
+
+  .bar {
+      width: 25px;
+      height: 3px;
+      background-color: #fff;
+      margin: 4px 0;
+  }
+}
