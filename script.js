@@ -49,6 +49,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 //FOR SHOWING UP MY BURGER MENU ON SMALLER SCREENS
+const toggleButton = document.getElementById('toggle-button');
+const navRight = document.getElementById('nav-right');
+
+toggleButton.addEventListener('click', () => {
+  navRight.classList.toggle('active');
+})
 
 
 
