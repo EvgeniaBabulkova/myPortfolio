@@ -7,6 +7,15 @@ body {
 
 }
 
+@media only screen and (max-width: 391px)  {
+
+body{
+    background-image: url('images/aboutme-390-bkg.png');
+}
+
+}
+ 
+
 .allshit{
     margin-left: 7.3%;
     margin-right: 7.3%;
@@ -41,6 +50,12 @@ h2 {
     margin-top: 1%;
 }
 
+@media only screen and (max-width: 391px)  {
+h2{
+    font-size: 30px;
+    text-shadow: 10px 10px 3px rgba(0, 0, 0, 0.50);
+}
+}
 
 
 
@@ -135,8 +150,65 @@ font-size: 3vw;
 margin-top: -5%;
 }
 
+.responsive-hero{
+    display: none;
+}
 
 
+
+
+@media only screen and (max-width: 391px)  {
+.findings-fieldr{
+    display:none;
+}
+
+.responsive-hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 15%;
+}
+
+.fieldr-right h2 {
+    font-size: 40px;
+    margin-left: 10%;
+}
+
+.second h2{
+    font-size: 20px;
+    margin-top: -5%;
+}
+
+.fieldr-right {
+margin-top: 90%;
+}
+
+.fieldr-left {
+    flex: 1;
+    padding: 3vw; 
+    box-sizing: border-box;
+    overflow: hidden; 
+    max-width: 100%; 
+}
+
+/* Image inside left content */
+.fieldr-left img {
+    max-width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-bottom: 20%;
+}
+
+.grey-text {
+    color: #b7b7b7;
+    font-size: 16px;
+}
+
+}
+
+.responsiveline{
+    display: none;
+}
 
 
 
@@ -170,6 +242,29 @@ margin-top: -5%;
 }
 
 
+
+@media only screen and (max-width: 391px)  {
+.responsiveline{
+    display: block;
+}
+
+
+.whatamilike {
+    flex-direction: column;
+}
+
+.leftlike {
+    max-width: 100%; 
+}
+
+.rightlike img {
+    max-width: 95%;
+    margin-left: 0%;
+    margin-top: 10%;
+}
+
+
+}
 
 
 
@@ -241,6 +336,28 @@ margin-top: -5%;
 }
 
 
+@media screen and (max-width: 768px) {
+    .image {
+        width: calc(50% - 20px);
+    }
+}
+@media screen and (max-width: 480px) {
+    .image {
+        width: calc(100% - 20px);
+    }
+
+    .overlay {
+        width: 62%;
+        height: 100%;
+    }
+}
+
+
+
+.responsive-travel{
+    display: none;
+}
+
 
 /* TRAVEL SECTION */
 .travel {
@@ -280,7 +397,28 @@ margin: 0%;
 }
 
 
+@media only screen and (max-width: 391px)  {
 
+.travel{
+    display: none;
+}
+
+.responsive-travel{
+    display: flex;
+    flex-direction: column;
+}
+
+.lefttravel{
+    width: 100%;
+    max-width: 100%;
+}
+
+.lefttravel img {
+    max-width: 100%;
+    margin-top: 10%;
+}
+
+}
 
 
 
@@ -344,40 +482,31 @@ margin: 0%;
     margin: 0 6%;
   }
 
-.footer-copyright {
+.footer-copyright p {
     margin-top: 2%;
     font-size: 2vw;
     font-family: 'Londrina Solid', cursive;
     font-weight: 300;
     font-size: 1.5vw;
-    margin: 0 3%;
   }
 
+  
 
 
-
-/* RESPONSIVE - I LOVE*/
-@media screen and (max-width: 768px) {
-    .image {
-        width: calc(50% - 20px);
+  @media only screen and (max-width: 391px)  {
+    .footer-links a {
+    font-size: 16px;
     }
-}
-@media screen and (max-width: 480px) {
-    .image {
-        width: calc(100% - 20px);
+  
+    .footer-copyright p {
+    font-size: 12px;
     }
-}
-.image:hover img {
-    filter: blur(5px); /* Blur the image on hover */
-}
-.image:hover .overlay {
-    opacity: 1;
-}
-.overlay p {
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-}
+  
+    .shoes img {
+    width: 60%;
+    margin-top: 40%;
+    }
+  }
 
 
 
@@ -397,11 +526,6 @@ margin: 0%;
 
 
 
-@media only screen and (max-width: 391px)  {
-   body{
-    background-image: url('images/bkg-ph-390.png');
-  }
-   }
 
 
 @media all and (max-width: 800px) {

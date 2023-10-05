@@ -16,7 +16,9 @@ body {
 
 @media only screen and (max-width: 391px)  {
   body{
-   background-image: url('images/bkg-ph-390-last.png');
+   background-image: url('images/ok.png');
+   background-position: center;
+   background-size: cover;
  }
   }
 
@@ -344,8 +346,6 @@ margin-top: 0%;
   display: none;
 }
 
-
-
 .linebutton{
   justify-content: center;
   margin-bottom: 15%;
@@ -355,7 +355,6 @@ margin-top: 0%;
   font-size: 30px;
   padding: 3% 7%;
 }
-
 }
 
 
@@ -461,7 +460,6 @@ margin-top: 0%;
     flex-direction: column;
   }
 
-
   .single-item {
     flex-direction: column;
     max-width: 100%;
@@ -564,7 +562,11 @@ display: none;
     color: #F2542D;
   }
 
-
+@media only screen and (max-width: 391px)  {
+.colored-text {
+  font-size: 18px;
+}
+}
 
 
 
@@ -631,7 +633,20 @@ display: none;
 
 
 
+@media only screen and (max-width: 391px)  {
+  .footer-links a {
+  font-size: 16px;
+  }
 
+  .footer-copyright {
+  font-size: 12px;
+  }
+
+  .shoes img {
+  width: 60%;
+  margin-top: 40%;
+  }
+}
 
 
 
