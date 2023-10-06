@@ -1,33 +1,29 @@
 
 // FOR SMOOTH SCROLLING TO WORK------------------
 
-document.addEventListener('DOMContentLoaded', function () {
-  // Select the "WORK" link
-  const workLink = document.querySelector('.work-link');
+// Get all the anchor links and sections
+const anchorLinks = document.querySelectorAll('.nav-link');
+const sections = document.querySelectorAll('section.highlightable');
 
-  // Define the height of your header (adjust this value as needed)
-  const headerHeight = 100; // Change this to match your header's height
+// Function to update the highlighted link based on scroll position
+function updateHighlight() {
+    sections.forEach((section, index) => {
+        const rect = section.getBoundingClientRect();
+        if (rect.top <= 50 && rect.bottom >= 50) {
+            anchorLinks.forEach((link) => {
+                link.classList.remove('highlighted');
+            });
+            anchorLinks[index].classList.add('highlighted');
+        }
+    });
+}
 
-  // Add a click event listener to the link
-  workLink.addEventListener('click', function (e) {
-    // Prevent the default behavior of the link
-    e.preventDefault();
+// Add scroll event listener to update the highlighted link
+window.addEventListener('scroll', updateHighlight);
 
-    // Find the first section with the "work-section" class
-    const targetSection = document.querySelector('.work-section');
+// Call the updateHighlight function initially to set the initial state
+updateHighlight();
 
-    if (targetSection) {
-      // Calculate the scroll position, accounting for the header height
-      const targetPosition = targetSection.getBoundingClientRect().top + window.scrollY - headerHeight;
-
-      // Scroll to the target position smoothly
-      window.scrollTo({
-        top: targetPosition,
-        behavior: 'smooth'
-      });
-    }
-  });
-});
 
 
 

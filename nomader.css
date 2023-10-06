@@ -1,11 +1,17 @@
 body {
-    background-image: url('images/onlygrainDESKTOP.png');
-    background-size: cover;
-    background-repeat:no-repeat;
     margin: 0%;
     color: #FEFAE0;
 
+    background-image: url('images/projects\ bkg\ fixed.png');
+    background-repeat: no-repeat;
+    background-size: cover; /* Cover the entire viewport */
+    background-attachment: fixed; 
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 
 /* STYLING H4 EVERYWHERE */
 h4 {
@@ -527,6 +533,33 @@ img {
     color: #fff; 
 }
 
+#section1::before {
+    content: "";
+    display: block;
+    height: 40px; /* Adjust as needed */
+    margin-top: -20px; /* Negative margin to offset the padding */
+}
+
+#section2::before {
+    content: "";
+    display: block;
+    height: 40px; /* Adjust as needed */
+    margin-top: -20px; /* Negative margin to offset the padding */
+}
+
+#section3::before {
+    content: "";
+    display: block;
+    height: 40px; /* Adjust as needed */
+    margin-top: -20px; /* Negative margin to offset the padding */
+}
+
+#section4::before {
+    content: "";
+    display: block;
+    height: 40px; /* Adjust as needed */
+    margin-top: -20px; /* Negative margin to offset the padding */
+}
 
 
 
