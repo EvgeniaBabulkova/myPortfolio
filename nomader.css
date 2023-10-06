@@ -668,7 +668,6 @@ h3 {
     padding: 3vw; 
     box-sizing: border-box;
     overflow: hidden; 
-    max-width: 50%; 
 }
 
 .trgg-sticky-notes img {
@@ -679,6 +678,7 @@ h3 {
 /* Right content styles */
 .netnography {
     flex: 1;
+    max-width: 100%;
     padding: 3vw;
     box-sizing: border-box;
 }
@@ -688,6 +688,12 @@ h3 {
     height: auto;
 }
 
+.greytext{
+    margin-top: 10%;
+    color: #afafaf;
+    font-style: italic;
+    font-size: 14px;
+}
 
 
 
