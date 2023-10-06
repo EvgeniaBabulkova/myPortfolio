@@ -869,12 +869,11 @@ margin-bottom: 10%;
 .shoes {
     display: flex;
     justify-content: center;
-    height: 40vh;
     margin-top: 12%;
     margin-bottom: 0%;
   }
   
-  .centered-image img {
+  .shoes img {
     max-width: 100%;
     height: auto;
   }
@@ -915,6 +914,11 @@ margin-bottom: 10%;
     font-weight: 300;
     font-size: 1.7svw;
     margin: 0 6%;
+    transition: color 0.3s ease;
+  }
+
+  .footer-links a:hover{
+    color: #357677;
   }
 
 .footer-copyright {
@@ -925,6 +929,7 @@ margin-bottom: 10%;
     font-size: 1.5vw;
     margin: 0 3%;
   }
+
 
 
   /* STYLE THE RESPONSIVE NAVBAR */

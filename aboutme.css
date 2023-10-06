@@ -434,12 +434,11 @@ margin: 0%;
 .shoes {
     display: flex;
     justify-content: center;
-    height: 40vh;
     margin-top: 12%;
     margin-bottom: 0%;
   }
   
-  .centered-image img {
+  .shoes img {
     max-width: 100%;
     height: auto;
   }
@@ -480,15 +479,22 @@ margin: 0%;
     font-weight: 300;
     font-size: 1.7svw;
     margin: 0 6%;
+    transition: color 0.3s ease;
   }
 
-.footer-copyright p {
+  .footer-links a:hover{
+    color: #357677;
+  }
+
+.footer-copyright {
     margin-top: 2%;
     font-size: 2vw;
     font-family: 'Londrina Solid', cursive;
     font-weight: 300;
     font-size: 1.5vw;
+    margin: 0 3%;
   }
+
 
   
 

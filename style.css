@@ -13,6 +13,14 @@ body {
     margin-right: 7.3%;
 }
 
+#scrolltome {
+  scroll-margin-top: 100px; /* Adjust the margin as needed */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 
 @media only screen and (max-width: 391px)  {
   body{
@@ -337,6 +345,12 @@ margin-top: 0%;
     border: none; 
     border-radius: 8px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+.button:hover {
+  background-color: #357677; /* New background color on hover */
 }
 
 
@@ -560,6 +574,12 @@ display: none;
   
   .orange {
     color: #F2542D;
+    transition: color 0.3s ease;
+
+  }
+
+  .orange:hover{
+    color: #357677;
   }
 
 @media only screen and (max-width: 391px)  {
@@ -620,6 +640,11 @@ display: none;
     font-weight: 300;
     font-size: 1.7svw;
     margin: 0 6%;
+    transition: color 0.3s ease;
+  }
+
+  .footer-links a:hover{
+    color: #357677;
   }
 
 .footer-copyright {
