@@ -1,11 +1,18 @@
 
 body {
-    background-image: url('images/backgroundDESK.png');
+    background-image: url('images/projects\ bkg\ fixed.png');
     background-size: cover;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     margin: 0%;
     color: #FEFAE0;
 
+}
+
+.hero {
+  background-image: url('images/HERO\ IMG.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .allshit{
@@ -27,6 +34,10 @@ html {
    background-image: url('images/ok.png');
    background-position: center;
    background-size: cover;
+ }
+
+ .hero{
+  background-image: none;
  }
   }
 
@@ -90,6 +101,9 @@ html {
     
 }
 
+.helloph{
+  display: none;
+}
 
 
 
@@ -129,13 +143,18 @@ html {
 
 @media only screen and (max-width: 391px)  {
 
+
+  .helloph{
+    display: block;
+  }
+
 .herosec{
   flex-direction: column;
   margin-top: 10%;
 }
 
 .herosec .text h1 {
-  margin-top: 40%;
+  margin-top: 20%;
   font-size: 30px;
   font-weight: 900;
 }

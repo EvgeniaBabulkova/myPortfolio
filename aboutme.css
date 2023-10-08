@@ -1,20 +1,32 @@
 body {
-    background-image: url('images/aboutme\ last\ bkg.png');
+    background-image: url('images/projects\ bkg\ fixed.png');
     background-size: cover;
-    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     margin: 0%;
     color: #FEFAE0;
 
 }
 
+
+.hero {
+  background-image: url('images/HERO\ ABOUT.png');
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+
+
 @media only screen and (max-width: 391px)  {
 
-body{
-    background-image: url('images/aboutme-390-bkg.png');
-}
+    body{
+        background-image: url('images/aboutme-390-bkg.png');
+    }
 
+    .hero{
+    background-image: none;
+    }
+    
 }
- 
 
 .allshit{
     margin-left: 7.3%;
