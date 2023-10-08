@@ -12,7 +12,7 @@ body {
 .hero {
   background-image: url('images/HERO\ ABOUT.png');
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size: cover;
 }
 
 
@@ -119,7 +119,7 @@ h2{
 }
 .navbar-center img {
     height: 50px;
-    display: block;
+    display: flex;
     margin: 0 auto;
     
 }
@@ -129,31 +129,33 @@ h2{
 .findings-fieldr {
     display: flex;
     justify-content: space-between;
-    margin-top: 7%;
     margin-bottom: 15%;
     box-sizing: border-box;
+    height: 100vh;
 }
 
 /* Left content styles */
 .fieldr-left {
     flex: 1;
-    padding: 3vw; 
+    padding-left: 18vw; 
+    padding-top: 10vw;
     box-sizing: border-box;
     overflow: hidden; 
-    max-width: 50%; 
+    max-width: 50%;
+    justify-content: center;
 }
 
 /* Image inside left content */
 .fieldr-left img {
-    max-width: 80%;
+    max-width: 90%;
     height: auto;
-    margin-left: 15%;
 }
 
 /* Right content styles */
 .fieldr-right {
     flex: 1;
-    padding: 3vw;
+    padding-right: 10vw;
+    padding-top: 10vw;
     box-sizing: border-box;
 }
 
@@ -257,7 +259,7 @@ margin-top: 90%;
 
 @media only screen and (max-width: 391px)  {
 .responsiveline{
-    display: block;
+    display: flex;
 }
 
 
